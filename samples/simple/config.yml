@@ -1,0 +1,11 @@
+title: TouchZoom Comparison
+image: logo.png
+description: This sample shows a simple comparison with a static image.
+priority: 1
+jsfiddle:
+  mapping:
+    html: "index.html"
+    css: "simple.css"
+    js: "simple.js"
+  resources:
+    - "{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/touchzoom/js/fsitouchzoom.js"

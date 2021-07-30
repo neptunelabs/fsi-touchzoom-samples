@@ -1,4 +1,4 @@
-# [FSI Layers](https://www.neptunelabs.com) &middot; Samples
+# [FSI TouchZoom](https://www.neptunelabs.com) &middot; Samples
 | ***Pixel-perfect*** | ***High-DPI-ready*** | ***Fast :rocket:*** | ***Hackable*** | ***Consistent*** |
 |:-----------------:|:-------------:|:---------------:|:---------------:|:---------------:|
 
