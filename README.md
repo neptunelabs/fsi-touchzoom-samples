@@ -5,10 +5,10 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/neptunelabs/fsi-layers-samples/blob/main/LICENSE)
 
 
-FSI Layers renders any number of images as layers in a canvas.
+FSI TouchZoom is an HTML5 and Javascript based tool adding image zoom to touch enabled devices.
+When pinch zooming into a website containing single source images provided by FSI Server, the images will be displayed in the resolution matching the current magnification.
 The real-time scaling capabilities of the image server are used to achieve pixel-perfect results.
-All layers can be animated and blended.
-FSI Layers can be created and controlled as a simple HTML tag and/or via JavaScript API.
+FSI TouchZoom can be added to all images on the site, controlled via CSS classes and/or via JavaScript API.
 
 This repository contains examples on how to use and build your own applications.
 
