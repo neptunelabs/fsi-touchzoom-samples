@@ -1,7 +1,7 @@
 title: Product Detail Page
 image: logo.png
-description: Shows how a product detail page could look with dynamic imaging and TouchZoom used.
-priority: 2
+description: Shows how a product detail page could look with TouchZoom used.
+priority: 3
 jsfiddle:
   mapping:
     html: "index.html"
