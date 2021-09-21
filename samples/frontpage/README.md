@@ -40,7 +40,10 @@ In this area you also can see the source code for your selected publishing optio
 You can then add the images to your site via image tag:
 
 ```html
- <img class="card-img-top img-fluid" src="//fsi-site.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-boFO5uIUKUU-unsplash.jpg&width=283" alt="" width="283">
+ <img
+  class="card-img-top img-fluid"
+  src="//fsi-site.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-boFO5uIUKUU-unsplash.jpg&width=283"
+  alt="" width="283">
 ```
 You can change the width and/or height directly in the image tag, the image will scale accordingly.
 
@@ -50,16 +53,18 @@ In order to display all images with TouchZoom, you only need to add the correspo
 to the head of your website:
 
 ```html
-<script src='https://fsi-site.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'></script>
+<script
+  src='https://fsi-site.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'
+</script>
 ```
 This ensures that FSI TouchZoom is loaded and all images will be displayed in the resolution matching the current magnification.
 This way, sharp images on mobile devices are guaranteed.
 You can also see this if you resize your browser window or change between different displays.
 
-# Enabling/disabling FSI TouchZoom by using CSS classes
+# Enabling/ disabling FSI TouchZoom by using CSS classes
 
 You can also restrict FSI TouchZoom to certain images and enable or disable it via CSS class.
-Simply embed a FSI TouchZoom tag somewhere on the page:
+Simply embed an FSI TouchZoom tag somewhere on the page:
 
 ```html
 <fsi-touchzoom style="display:none"
@@ -73,6 +78,6 @@ You could also use *disableByCSSClass="noZoom"* for example.
 
 For all parameters which can be used, please consult the [manual](https://docs.neptunelabs.com/fsi-viewer/latest/fsi-touchzoom).
 
-## Testing with examples from  your own server
+## Testing with examples from your own server
 
 To test the examples with images from your own [FSI Server](https://www.neptunelabs.com/fsi-server/), please first copy the env.yml.dist file to env.yml and adapt the file, then restart the main demo again.
