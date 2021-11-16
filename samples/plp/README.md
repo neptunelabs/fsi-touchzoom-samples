@@ -9,14 +9,9 @@ It also shows how FSI TouchZoom is used.
 First, you'll need to upload the images you want to use to FSI Server.
 You can install a [demo version](https://www.neptunelabs.com/get/) via Docker or use our [online demo server](https://demo.fsi-server.com/fsi/interface/) to try it out first.
 
-It's important to use the correct source connector for your images:
-
-- *Storage*: images will be imported to the storage for high performance Single Source Imaging
-- *Static*: for static files only, e.g. style graphics you want to use on your website
-
 # Uploading images
 
-Depending on the type of the selected source connector, you can upload different types of files. There are several possibilities to upload images into the interface.
+There are several possibilities to upload images into the interface.
 
 ![Config Image](readme-plp.png)
 
@@ -26,22 +21,19 @@ Depending on the type of the selected source connector, you can upload different
 # Use images on the website
 
 While having an image or folder selected, you can see all possible publishing ways for the specific item by visting the Publish To Web tab.
-For this example, select the preset *Simple Image*:
+For this example, select the preset *Image, dynamic resolution* in the section **Image, responsive**:
 
 ![Config Image](readme-plp-1.png)
 
-Simple Image publishes the image with a simple <img> tag. Requires a single high resolution image. You can set the output dimensions and format (auto automatically chooses the best format for the browser used, or you can set WEBP, JPEG, PNG or GIF) as well as add various effects to the static image.
+The *Source Code* section enables you to control the look of your image or viewer by setting the output dimensions and format (auto automatically chooses the best format for the browser used, or you can set WEBP, JPEG, PNG or GIF), as well as adding effects or crop options to it.
+In this area you also can see the source code for your selected publishing option which you can edit and copy to publish the images.
 
 ![Config Image](readme-plp-2.png)
-
-The *Source Code* section enables you to control the look of your image or viewer by setting the dimensions and format, as well as adding effects or crop options to it.
-In this area you also can see the source code for your selected publishing option which you can edit and copy to publish the images.
 
 You can then add the images to your site via image tag:
 
 ```html
  <img
-  class="card-img-top img-fluid"
   src="//fsi-site.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-boFO5uIUKUU-unsplash.jpg&width=283"
   alt="" width="283">
 ```
