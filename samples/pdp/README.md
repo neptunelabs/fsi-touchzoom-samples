@@ -20,7 +20,7 @@ There are several possibilities to upload images into the interface.
 
 # Use images on the website
 
-While having an image or folder selected, you can see all possible publishing ways for the specific item by visting the Publish To Web tab.
+While having an image or folder selected, you can see all possible publishing ways for the specific item by visiting the "Publish To Web" tab.
 For this example, select the preset *Image, dynamic resolution* in the section **Image, responsive**:
 
 ![Config Image](readme-pdp-1.png)
