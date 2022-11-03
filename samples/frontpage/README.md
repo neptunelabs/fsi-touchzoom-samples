@@ -35,7 +35,7 @@ You can then add the images to your site via image tag:
 ```html
  <img
   class="card-img-top img-fluid"
-  src="//fsi-site.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-boFO5uIUKUU-unsplash.jpg&width=283"
+  src="//docs.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-boFO5uIUKUU-unsplash.jpg&width=283"
   alt="" width="283">
 ```
 You can change the width and/or height directly in the image tag, the image will scale accordingly.
@@ -47,7 +47,7 @@ to the head of your website:
 
 ```html
 <script
-  src='https://fsi-site.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'
+  src='https://docs.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'
 </script>
 ```
 This ensures that FSI TouchZoom is loaded and all images will be displayed in the resolution matching the current magnification.
