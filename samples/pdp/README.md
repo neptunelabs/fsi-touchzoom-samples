@@ -4,27 +4,6 @@ This readme describes how the product Detail page sample with *FSI TouchZoom* an
 The aim of the demo is to show how you can easily integrate different sizes and formats of an image by simply changing the Image URL.
 It also shows how FSI TouchZoom is used.
 
-# Use images on the website
-
-While having an image or folder selected, you can see all possible publishing ways for the specific item by visiting the "Publish To Web" tab.
-For this example, select the preset *Image, dynamic resolution* in the section **Image, responsive**:
-
-![Config Image](readme-pdp-1.png)
-
-The *Source Code* section enables you to control the look of your image or viewer by setting the output dimensions and format (auto automatically chooses the best format for the browser used, or you can set WEBP, JPEG, PNG or GIF), as well as adding effects or crop options to it.
-In this area you also can see the source code for your selected publishing option which you can edit and copy to publish the images.
-
-![Config Image](readme-pdp-2.png)
-
-You can then add the images to your site via image tag:
-
-```html
- <img
-  src="//docs.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-boFO5uIUKUU-unsplash.jpg&width=283"
-  alt="" width="283">
-```
-You can change the width and/or height directly in the image tag, the image will scale accordingly.
-
 # Using TouchZoom
 
 In order to display all images with TouchZoom, you only need to add the corresponding script
