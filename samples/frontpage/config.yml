@@ -16,14 +16,21 @@ sample:
         height: 33vh
         logo:
           url: /static/assets/samples/ssi/sale.svg
-          height: 30%
+          height: 40%
         title: Black Friday
         description: Check out our furniture sale.
         link: SHOP NOW
       featured:
         template: data/furniture-featured.yml
       categories: true
-      footer: true
+      footer:
+        credits:
+          photos:
+            author: various artists
+            link: https://pixabay.com/
+            platform: Pixabay
+          viewer:
+            link: https://www.neptunelabs.com/fsi-touchzoom/
       fsi:
         touchZoom: true
       bootstrap:
