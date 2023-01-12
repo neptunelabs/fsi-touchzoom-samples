@@ -61,11 +61,3 @@ a:hover {
   position: sticky;
 }
 
-.flex-equal > * {
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    flex: 1;
-  }
-}
