@@ -28,7 +28,6 @@ sample:
         icons: true
   mapping:
     html: "index.html"
-    css: "pdp.css"
     js: "pdp.js"
 jsfiddle:
   deploy: true
