@@ -5,6 +5,7 @@ overview:
   order: 1
   facts:
     - JS built FSI TouchZoom
+    - Usage of fsi-touchzoom tag to set different parameters
 sample:
   template:
     schema: framework-2023

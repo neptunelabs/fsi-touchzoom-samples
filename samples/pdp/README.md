@@ -14,6 +14,9 @@ to the head of your website:
   src='https://docs.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'>
 </script>
 ```
+
+In our example, this is done through the framework, but you can see that the script is loaded when the page is compiled.
+
 This ensures that FSI TouchZoom is loaded and all images will be displayed in the resolution matching the current magnification.
 This way, sharp images on mobile devices are guaranteed.
 You can also see this if you resize your browser window or change between different displays.
@@ -30,6 +33,10 @@ enableByCSSClass="zoom"
 ></fsi-touchzoom>
 ```
 In this example, TouchZoom will only be used for images with the class *zoom*.
+
+```html
+ <img id="image" class="zoom img-fluid" src="https://docs.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/home-7531464.jpg&width=940" width="940" alt="">
+```
 
 You could also use *disableByCSSClass="noZoom"* for example.
 
