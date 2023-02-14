@@ -1,6 +1,6 @@
 # Frontpage - Using FSI TouchZoom & Single Source Imaging
 
-This readme describes how the front page example is achieved using *FSI TouchZoom* and *Single Source Imaging* from *FSI Server*.
+This readme describes how the front page example is achieved using _FSI TouchZoom_ and _Single Source Imaging_ from _FSI Server_.
 
 # Using TouchZoom
 
@@ -21,13 +21,8 @@ You can also see this when you resize your browser window or switch between diff
 
 You can also set different parameters by using an `<fsi-touchzoom>` tag, which is what we have done here:
 
-
 ```html
-<fsi-touchzoom style="display:none"
-               useDevicePixelRatio="true"
-               debug="true"
-></fsi-touchzoom>
-
+<fsi-touchzoom style="display:none" useDevicePixelRatio="true" debug="true"></fsi-touchzoom>
 ```
 
 ## Testing with examples from your own server

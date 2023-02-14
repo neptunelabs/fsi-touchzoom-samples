@@ -37,6 +37,6 @@ sample:
       bootstrap:
         icons: false
   mapping:
-    html: "index.html"
+    html: 'index.html'
 jsfiddle:
   deploy: true
