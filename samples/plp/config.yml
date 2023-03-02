@@ -1,7 +1,7 @@
 overview:
   title: Product Listing Page
   image: logo.png
-  description: Shows how a product listing page could look with dynamic imaging and TouchZoom used.
+  description: Shows how a product listing page with dynamic imaging and TouchZoom used looks.
   order: 2
   facts:
     - JS built FSI TouchZoom
