@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/neptunelabs/fsi-layers-samples/blob/main/LICENSE)
 
 
-FSI TouchZoom is an HTML5 and Javascript based tool adding image zoom to touch enabled devices. When pinch zooming into a website containing single source images
-provided by FSI Server, the images will be displayed in the resolution matching the current magnification.
+FSI TouchZoom is an HTML5 and Javascript based tool that adds image zoom to touch enabled devices. When pinch zooming into a website containing single source images provided by
+provided by FSI Server, the images are displayed at the resolution appropriate to the current zoom level.
 The real-time scaling capabilities of the image server are used to achieve pixel-perfect results.
-FSI TouchZoom  can be applied to every image on the site, or be controlled with CSS classes.
-It can also be created and controlled via JavaScript API.
+FSI TouchZoom can be applied to any image on the site or controlled using CSS classes.
+It can also be created and controlled using the JavaScript API.
 
 This repository contains examples on how to use and build your own applications.
 
@@ -20,18 +20,15 @@ This repository contains examples on how to use and build your own applications.
 Without starting this project in your IDE, you can discover, develop and customize
 all demos in JSFiddle.
 
-[Flowers in JSFiddle][flowjsf]
+[Website Frontpage in JSFiddle][frontjsf]
 
-[Trains in JSFiddle][trainsjsf]
-
-[Kitchen in JSFiddle][kitchenjsf]
+[Product Listing Page in JSFiddle][plpjsf]
 
 [Product Detail Page in JSFiddle][pdpjsf]
 
-[flowjsf]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-jsfiddle-samples/tree/master/fsi-layers-samples/flowers
-[kitchenjsf]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-jsfiddle-samples/tree/master/fsi-layers-samples/kitchen
-[pdpjsf]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-jsfiddle-samples/tree/master/fsi-layers-samples/pdp
-[trainsjsf]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-jsfiddle-samples/tree/master/fsi-layers-samples/trains
+[frontjsf]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-jsfiddle-samples/tree/master/fsi-touchzoom-samples/frontpage
+[plpjsf]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-jsfiddle-samples/tree/master/fsi-touchzoom-samples/plp
+[pdpjsf]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-jsfiddle-samples/tree/master/fsi-touchzoom-samples/pdp
 
 ## Start and develop
 
