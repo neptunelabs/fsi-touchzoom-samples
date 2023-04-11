@@ -9,11 +9,11 @@ It also shows how to use FSI TouchZoom.
 With an image or folder selected, you can see all the publishing options for that item by going to the Publish to Web tab.
 For this example, select the 'Image, dynamic resolution' preset in the 'Image, responsive' section:
 
-![Config Image](readme-front-1.png)
+![Config Image](readme-plp-1.png)
 The Source Code section allows you to control the appearance of your image or viewer by setting the output dimensions and format (Auto automatically selects the best format for the browser used, or you can set WEBP, JPEG, PNG or GIF), as well as adding effects or cropping options.
 This section also displays the source code for your chosen publishing option, which you can edit and copy to publish your images.
 
-![Config Image](readme-front-2.png)
+![Config Image](readme-plp-2.png)
 
 You can then add the images to your site using the image tag:
 
