@@ -1,0 +1,35 @@
+overview:
+  title: Product Listing Page (PLP)
+  image: logo.png
+  description: Shows how a product listing page with dynamic imaging and TouchZoom used looks.
+  order: 2
+  facts:
+    - JS built FSI TouchZoom
+sample:
+  template:
+    schema: framework-2023
+    components:
+      menu:
+        template: data/furniture-menu.yml
+      hero:
+        url: /server?type=image&source=images/samples/ssi/furniture/tv-cabinet-6185020.jpg&width=1903&rect=0.08146,0.53855,0.85105,0.21963
+        height: 30vh
+      categories: true
+      footer:
+        credits:
+          photos:
+            author: various artists
+            link: https://pixabay.com/
+            platform: Pixabay
+          viewer:
+            link: https://www.neptunelabs.com/fsi-touchzoom/
+      fsi:
+        touchZoom: true
+      bootstrap:
+        icons: false
+  mapping:
+    html: "index.html"
+    css: "style.css"
+    js: "script.js"
+playground:
+  deploy: true
