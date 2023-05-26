@@ -10,7 +10,7 @@ In order to display all images with TouchZoom, you only need to add the correspo
 to the head of your website:
 
 ```html
-<script src="https://docs.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js"></script>
+<script src="https://fsi.domain.tld/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js"></script>
 ```
 
 In our example, this is done through the framework, but you can see that the script is loaded when the page is compiled.
@@ -34,7 +34,7 @@ In this example, TouchZoom will only be used for images with the class _zoom_.
 <img
   id="image"
   class="zoom img-fluid"
-  src="https://docs.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/home-7531464.jpg&width=940"
+  src="https://fsi.domain.tld/fsi/server?type=image&source=images/samples/ssi/furniture/home-7531464.jpg&width=940"
   width="940"
   alt=""
 />

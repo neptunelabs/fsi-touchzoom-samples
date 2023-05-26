@@ -9,7 +9,7 @@ to the head of your website:
 
 ```html
 <script
-  src='https://docs.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'
+  src='https://fsi.domain.tld/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'
 </script>
 ```
 
