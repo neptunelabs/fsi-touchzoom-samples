@@ -1,4 +1,4 @@
-# [FSI TouchZoom](https://www.neptunelabs.com) &middot; Samples
+# [FSI TouchZoom](https://www.neptunelabs.com/fsi-touchzoom/) &middot; [Samples][GHPages]
 
 | **_Pixel-perfect_** | **_High-DPI-ready_** | **_Fast :rocket:_** | **_Hackable_** | **_Consistent_** |
 | :-----------------: | :------------------: | :-----------------: | :------------: | :--------------: |
