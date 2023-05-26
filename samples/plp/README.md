@@ -32,7 +32,7 @@ to the head of your website:
 
 ```html
 <script
-  src='https://docs.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'>
+  src='https://fsi.domain.tld/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js'>
 </script>
 ```
 
@@ -55,7 +55,7 @@ enableByCSSClass="zoom"
 In this example, TouchZoom will only be used for images with the class *zoom*.
 
 ```html
-<img class="zoom card-img-top img-fluid" src="https://docs.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/living-room-7225005.jpg&width=3428&rect=0.00131,0.00117,0.56176,0.99883" width="342"
+<img class="zoom card-img-top img-fluid" src="https://fsi.domain.tld/fsi/server?type=image&source=images/samples/ssi/furniture/living-room-7225005.jpg&width=3428&rect=0.00131,0.00117,0.56176,0.99883" width="342"
 ```
 
 You could also use *disableByCSSClass="noZoom"* for example.
