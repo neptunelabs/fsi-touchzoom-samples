@@ -64,7 +64,7 @@ change the settings.
 
 For further information on the FSI Viewer and FSI Server, please refer to the official [documentation][Docs].
 
-[Docs]: https://docs.neptunelabs.com/fsi-viewer/latest/fsi-touchzoom
+[Docs]: https://docs.neptunelabs.com/docs/fsi-touchzoom
 [Server]: https://www.neptunelabs.com/get/
 [Grunt]: https://gruntjs.com/
 [Browsersync]: https://browsersync.io/
