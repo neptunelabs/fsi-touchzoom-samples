@@ -18,9 +18,11 @@
 <body>
 <fsi-touchzoom style="display:none"
                useDevicePixelRatio="true"
+               autoInit="true"
+               enableByCSSClass="useTouchZoom"
 ></fsi-touchzoom>
 
-<img src="{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/notebook.png&width=800" width="800" alt="">
+<img src="{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/notebook.png&width=800" width="800" alt="" class="useTouchZoom">
 
 </body>
 </html>
