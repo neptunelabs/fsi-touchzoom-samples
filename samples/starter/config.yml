@@ -4,9 +4,5 @@ overview:
   description: Start your own demo
   order: 99
 sample:
-  mapping:
-    html: 'index.html'
-    js: 'script.js'
-    css: 'style.css'
-playground:
-  deploy: true
+  template:
+    schema: vanilla
