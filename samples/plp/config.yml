@@ -5,26 +5,24 @@ overview:
   order: 2
   facts:
     - JS built FSI TouchZoom
+schema: bootstrap-taupe
 sample:
-  template:
-    schema: bootstrap-taupe
-    components:
-      menu:
-        template: data/furniture-menu.yml
-      hero:
-        url: /server?type=image&source=images/samples/ssi/furniture/tv-cabinet-6185020.jpg&width=1903&rect=0.08146,0.53855,0.85105,0.21963
-        height: 30vh
-      categories: true
-      footer:
-        credits:
-          photos:
-            author: various artists
-            link: https://pixabay.com/
-            platform: Pixabay
-          viewer:
-            link: https://www.neptunelabs.com/fsi-touchzoom/
-      fsi:
-        touchZoom: true
-      bootstrap:
-        icons: false
+  menu:
+    data: furniture-menu.yml
+  hero:
+    url: /server?type=image&source=images/samples/ssi/furniture/tv-cabinet-6185020.jpg&width=1903&rect=0.08146,0.53855,0.85105,0.21963
+    height: 30vh
+  categories: true
+  footer:
+    credits:
+      photos:
+        author: various artists
+        link: https://pixabay.com/
+        platform: Pixabay
+      viewer:
+        link: https://www.neptunelabs.com/fsi-touchzoom/
+  fsi:
+    touchZoom: true
+  bootstrap:
+    icons: false
 

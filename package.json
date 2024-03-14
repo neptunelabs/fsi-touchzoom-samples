@@ -3,7 +3,7 @@
     "name": "NeptuneLabs GmbH",
     "url": "https://www.neptunelabs.com/"
   },
-  "version": "24.02.16",
+  "version": "24.03.14",
   "homepage": "https://www.neptunelabs.com/fsi-touchzoom",
   "repository": {
     "type": "git",
@@ -16,11 +16,9 @@
     "npm": ">=8.0.0"
   },
   "dependencies": {
-    "@neptunelabs/fsi-samples-framework": "^2.0.8-dev"
+    "@neptunelabs/fsi-samples-framework": "2.0.15-dev"
   },
-  "devDependencies": {
-    "prettier": "^3"
-  },
+
   "scripts": {
     "start": "workbench",
     "build": "workbench --build"
