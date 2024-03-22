@@ -5,7 +5,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/neptunelabs/fsi-layers-samples/blob/main/LICENSE)
 
-FSI TouchZoom is an HTML5 and Javascript based tool that adds image zoom to touch enabled devices. When pinch zooming on a website containing single source images provided by the
+FSI TouchZoom is a tool that adds image zoom to touch enabled devices. When pinch zooming on a website containing single source images provided by the
 FSI Server, the images are displayed at the resolution appropriate to the current zoom level.
 The real-time scaling capabilities of the image server are used to achieve pixel-perfect results.
 FSI TouchZoom can be applied to any image on the site or controlled using CSS classes.
@@ -13,7 +13,7 @@ It can also be created and controlled using the JavaScript API.
 
 This repository contains examples on how to use and build your own applications.
 
-![Project Image](project.apng)
+[![Project Image](project.apng)][GHPages]
 
 ## Getting Started
 

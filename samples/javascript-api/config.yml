@@ -1,10 +1,11 @@
 overview:
-  title: Product Detail Page (PDP)
+  title: JavaScript API
   image: logo.png
-  description: Shows how a product detail page with TouchZoom used looks.
-  order: 3
+  description: Learn how to use the JavaScript TouchZoom API with a simple demo.
+  order: 98
   facts:
     - JS built FSI TouchZoom
+    - JS API Demonstration
 schema: bootstrap-taupe
 sample:
   menu:
@@ -24,3 +25,4 @@ sample:
     touchZoom: true
   bootstrap:
     icons: true
+
