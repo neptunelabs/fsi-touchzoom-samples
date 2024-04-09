@@ -1,9 +1,15 @@
-# [FSI TouchZoom](https://www.neptunelabs.com/fsi-touchzoom/) &middot; [Samples][GHPages]
+# FSI TouchZoom Samples
 
 | **_Pixel-perfect_** | **_High-DPI-ready_** | **_Fast :rocket:_** | **_Hackable_** | **_Consistent_** |
 | :-----------------: | :------------------: | :-----------------: | :------------: | :--------------: |
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/neptunelabs/fsi-layers-samples/blob/main/LICENSE)
+
+---
+
+* [Live Samples @ GitHub Pages 🔗][GHPages]
+* [FSI TouchZoom - Product Page 🔗](https://www.neptunelabs.com/fsi-touchzoom/)
+* [Documentation 🔗][Docs]
 
 FSI TouchZoom is a tool that adds image zoom to touch enabled devices. When pinch zooming on a website containing single source images provided by the
 FSI Server, the images are displayed at the resolution appropriate to the current zoom level.
